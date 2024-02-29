@@ -1,0 +1,1001 @@
+index,Brand,Processor_Speed,RAM_Size,Storage_Capacity,Screen_Size,Weight,Price
+0,Asus,fast,16,512,small,light,normal
+1,Acer,medium,4,1000,small,average,very expensive
+2,Lenovo,fast,4,256,small,light,cheap
+3,Acer,fast,16,512,small,heavy,normal
+4,Acer,fast,32,1000,average,heavy,very expensive
+5,HP,slow,16,256,small,heavy,cheap
+6,Lenovo,medium,32,256,small,heavy,cheap
+7,Lenovo,medium,4,256,big,light,cheap
+8,Lenovo,medium,4,512,big,light,normal
+9,Acer,fast,32,512,average,heavy,normal
+10,Asus,fast,4,1000,average,average,very expensive
+11,Lenovo,fast,32,512,small,average,normal
+12,Acer,medium,8,512,average,light,normal
+13,HP,slow,16,256,average,light,cheap
+14,Asus,fast,8,256,average,average,cheap
+15,HP,fast,32,256,big,average,cheap
+16,Asus,slow,16,256,small,heavy,cheap
+17,Acer,fast,32,256,big,light,cheap
+18,Dell,fast,16,256,small,average,cheap
+19,Asus,medium,16,256,big,light,cheap
+20,HP,medium,16,1000,average,light,very expensive
+21,Acer,medium,16,1000,big,average,very expensive
+22,Asus,slow,32,1000,small,light,very expensive
+23,Dell,slow,16,1000,average,light,very expensive
+24,Dell,fast,16,256,average,light,cheap
+25,Lenovo,slow,8,1000,big,light,very expensive
+26,Lenovo,slow,4,256,average,light,cheap
+27,HP,medium,4,1000,average,light,very expensive
+28,Asus,medium,8,512,average,light,normal
+29,Asus,fast,8,1000,small,light,very expensive
+30,Lenovo,medium,32,1000,average,average,very expensive
+31,Asus,medium,32,256,small,light,cheap
+32,Asus,fast,32,1000,big,light,very expensive
+33,Dell,medium,8,512,big,light,normal
+34,Lenovo,slow,8,256,big,average,cheap
+35,Acer,medium,16,256,small,heavy,cheap
+36,Lenovo,slow,32,1000,big,heavy,very expensive
+37,Acer,slow,32,256,big,heavy,cheap
+38,Dell,medium,32,256,big,average,cheap
+39,HP,medium,4,256,average,heavy,cheap
+40,Asus,fast,16,256,small,average,cheap
+41,Dell,medium,32,256,big,light,cheap
+42,Asus,medium,32,256,average,light,cheap
+43,HP,medium,32,512,small,light,normal
+44,HP,slow,4,1000,small,heavy,very expensive
+45,Dell,medium,4,512,big,average,normal
+46,HP,slow,8,256,big,heavy,cheap
+47,Acer,fast,16,256,big,average,cheap
+48,HP,slow,8,1000,average,average,very expensive
+49,Asus,medium,16,512,small,light,normal
+50,Asus,slow,4,1000,small,light,very expensive
+51,Asus,fast,32,512,small,heavy,normal
+52,Asus,medium,8,256,small,average,cheap
+53,Acer,medium,32,1000,average,average,very expensive
+54,Lenovo,slow,8,1000,small,heavy,very expensive
+55,Dell,fast,4,256,average,light,cheap
+56,Asus,slow,4,1000,big,heavy,very expensive
+57,HP,fast,4,512,average,average,normal
+58,Asus,slow,8,512,big,average,normal
+59,HP,slow,16,512,average,light,normal
+60,HP,slow,8,512,small,light,normal
+61,Asus,medium,16,256,average,light,cheap
+62,Acer,medium,8,1000,small,average,very expensive
+63,HP,slow,8,512,average,heavy,normal
+64,HP,fast,4,256,big,heavy,cheap
+65,Asus,medium,32,1000,small,light,very expensive
+66,HP,medium,32,1000,small,average,very expensive
+67,HP,medium,16,256,average,light,cheap
+68,Asus,medium,32,256,big,light,cheap
+69,Asus,medium,8,512,big,average,normal
+70,Dell,slow,8,1000,big,average,very expensive
+71,Acer,slow,4,1000,small,light,very expensive
+72,Acer,fast,4,256,big,light,cheap
+73,HP,fast,32,1000,big,heavy,very expensive
+74,Acer,medium,16,512,average,light,normal
+75,HP,slow,32,1000,big,average,very expensive
+76,Dell,medium,32,256,small,average,cheap
+77,Asus,medium,32,256,big,light,cheap
+78,Asus,slow,32,512,big,light,normal
+79,Asus,slow,8,512,small,average,normal
+80,Acer,fast,16,1000,average,heavy,very expensive
+81,Dell,medium,8,1000,big,average,very expensive
+82,Acer,slow,16,256,small,average,cheap
+83,Acer,slow,4,512,average,heavy,normal
+84,Dell,slow,32,512,big,heavy,normal
+85,Dell,medium,8,512,average,average,normal
+86,Dell,slow,16,1000,small,average,very expensive
+87,Dell,slow,4,512,average,average,normal
+88,Asus,fast,4,256,small,average,cheap
+89,Lenovo,slow,32,256,average,average,cheap
+90,Lenovo,medium,16,1000,small,average,very expensive
+91,Dell,slow,8,1000,average,light,very expensive
+92,Lenovo,slow,32,512,average,average,normal
+93,Lenovo,slow,8,1000,big,light,very expensive
+94,Dell,fast,4,256,average,light,cheap
+95,Lenovo,fast,8,512,average,light,normal
+96,Acer,fast,8,256,big,average,cheap
+97,HP,medium,32,512,small,average,normal
+98,HP,medium,8,1000,average,light,very expensive
+99,Dell,slow,32,512,small,average,normal
+100,Asus,slow,4,512,big,average,normal
+101,Dell,fast,32,256,small,light,cheap
+102,Asus,slow,32,256,average,average,cheap
+103,HP,slow,16,512,big,heavy,normal
+104,Dell,slow,8,1000,average,heavy,very expensive
+105,Acer,slow,4,1000,small,average,very expensive
+106,Lenovo,slow,32,256,average,average,cheap
+107,Asus,medium,4,1000,average,light,very expensive
+108,Lenovo,medium,16,256,big,light,cheap
+109,Lenovo,fast,8,1000,average,light,very expensive
+110,Dell,fast,32,512,average,heavy,expensive
+111,Lenovo,medium,8,256,average,light,cheap
+112,Acer,slow,16,256,big,light,cheap
+113,Lenovo,medium,16,512,average,heavy,normal
+114,Dell,medium,4,256,average,heavy,cheap
+115,Acer,slow,32,1000,small,heavy,very expensive
+116,HP,medium,4,1000,small,light,very expensive
+117,Lenovo,medium,16,256,small,light,cheap
+118,Dell,medium,8,1000,small,average,very expensive
+119,HP,medium,4,256,average,light,cheap
+120,HP,slow,4,512,average,light,normal
+121,Asus,fast,8,256,small,average,cheap
+122,Acer,fast,4,512,big,heavy,normal
+123,Lenovo,slow,8,1000,small,light,very expensive
+124,Dell,fast,32,512,big,average,normal
+125,Asus,medium,8,1000,average,average,very expensive
+126,Acer,fast,32,256,average,light,cheap
+127,Asus,fast,8,1000,small,average,very expensive
+128,Acer,medium,16,256,average,light,cheap
+129,Acer,slow,16,256,average,light,cheap
+130,Lenovo,slow,32,512,big,heavy,normal
+131,Acer,medium,32,512,average,light,normal
+132,Asus,medium,16,512,big,heavy,normal
+133,Acer,slow,32,512,small,light,normal
+134,Lenovo,slow,8,1000,big,average,very expensive
+135,Lenovo,fast,8,1000,average,average,very expensive
+136,Asus,fast,16,1000,big,light,very expensive
+137,HP,medium,4,256,small,light,cheap
+138,HP,slow,8,1000,average,average,very expensive
+139,Acer,slow,32,1000,average,heavy,very expensive
+140,Dell,slow,4,1000,big,heavy,very expensive
+141,Acer,fast,4,512,small,average,normal
+142,Asus,slow,8,1000,big,heavy,very expensive
+143,Asus,medium,8,256,small,heavy,cheap
+144,Asus,slow,4,512,big,heavy,normal
+145,Asus,medium,4,256,big,average,cheap
+146,Asus,medium,16,1000,big,average,very expensive
+147,Lenovo,fast,32,512,average,heavy,normal
+148,HP,slow,16,256,average,average,cheap
+149,Asus,slow,8,1000,big,heavy,very expensive
+150,Dell,slow,16,256,small,average,cheap
+151,Dell,fast,16,256,average,light,cheap
+152,Dell,fast,16,256,big,light,cheap
+153,Dell,medium,16,1000,big,average,very expensive
+154,Lenovo,medium,32,1000,small,average,very expensive
+155,Dell,medium,32,256,average,heavy,cheap
+156,Asus,slow,4,512,big,light,normal
+157,Acer,fast,8,512,small,heavy,normal
+158,Dell,medium,16,1000,big,heavy,very expensive
+159,Lenovo,medium,4,1000,small,light,very expensive
+160,Lenovo,medium,4,1000,average,heavy,very expensive
+161,Dell,slow,4,1000,small,heavy,expensive
+162,Acer,slow,32,1000,small,heavy,very expensive
+163,Dell,fast,16,512,big,heavy,normal
+164,Lenovo,slow,16,1000,average,heavy,very expensive
+165,HP,medium,8,256,average,average,cheap
+166,Asus,slow,16,256,small,light,cheap
+167,Lenovo,medium,16,512,average,heavy,normal
+168,Dell,slow,4,256,average,average,cheap
+169,Asus,medium,8,512,average,average,normal
+170,Dell,fast,16,512,small,light,normal
+171,Dell,slow,32,256,big,heavy,cheap
+172,HP,medium,16,1000,average,light,very expensive
+173,Asus,medium,4,256,average,heavy,cheap
+174,Asus,medium,32,256,small,light,cheap
+175,HP,fast,4,512,big,light,normal
+176,Lenovo,fast,16,256,average,average,cheap
+177,Dell,slow,32,512,average,light,normal
+178,Acer,slow,8,1000,small,heavy,very expensive
+179,Dell,slow,8,1000,big,heavy,very expensive
+180,Dell,medium,32,1000,small,heavy,very expensive
+181,Lenovo,slow,32,256,big,light,cheap
+182,Dell,medium,4,512,average,light,normal
+183,HP,medium,32,1000,small,heavy,very expensive
+184,HP,slow,4,512,big,heavy,normal
+185,Asus,fast,16,512,average,average,normal
+186,Acer,slow,4,1000,big,average,very expensive
+187,Dell,slow,32,1000,big,light,very expensive
+188,Dell,fast,32,512,big,heavy,expensive
+189,Lenovo,medium,16,1000,small,average,very expensive
+190,HP,fast,32,512,big,light,normal
+191,Acer,medium,32,512,average,light,normal
+192,Asus,slow,8,1000,big,heavy,very expensive
+193,HP,fast,8,256,average,light,cheap
+194,Asus,fast,16,1000,big,light,very expensive
+195,Lenovo,fast,4,256,average,average,cheap
+196,Lenovo,slow,8,512,average,light,normal
+197,Dell,medium,4,512,small,light,normal
+198,Acer,medium,32,256,big,heavy,cheap
+199,Asus,slow,8,512,average,heavy,normal
+200,HP,fast,16,256,average,heavy,cheap
+201,Lenovo,slow,16,256,big,heavy,cheap
+202,Dell,fast,16,512,average,average,normal
+203,Dell,medium,8,256,small,heavy,cheap
+204,Asus,slow,4,1000,average,average,very expensive
+205,Lenovo,medium,32,1000,average,average,very expensive
+206,Acer,fast,4,512,average,heavy,normal
+207,Lenovo,fast,4,512,small,light,normal
+208,Asus,fast,32,256,small,average,cheap
+209,Asus,medium,32,256,small,average,cheap
+210,Lenovo,fast,8,256,big,light,cheap
+211,Asus,fast,8,256,small,light,cheap
+212,Lenovo,slow,8,1000,average,heavy,very expensive
+213,HP,medium,8,1000,big,heavy,very expensive
+214,Lenovo,slow,8,512,small,average,normal
+215,Lenovo,fast,32,256,average,light,cheap
+216,Asus,fast,4,256,big,light,cheap
+217,Asus,slow,8,512,big,heavy,normal
+218,Dell,fast,8,256,big,average,cheap
+219,Dell,fast,4,256,big,light,cheap
+220,HP,slow,8,256,big,average,cheap
+221,Dell,medium,4,256,average,light,cheap
+222,Lenovo,fast,4,256,big,average,cheap
+223,Asus,slow,32,512,small,heavy,normal
+224,Dell,fast,16,256,big,average,cheap
+225,Dell,slow,32,512,average,heavy,normal
+226,HP,fast,16,256,average,average,cheap
+227,HP,fast,16,1000,small,heavy,very expensive
+228,Lenovo,fast,16,1000,big,average,very expensive
+229,Asus,medium,8,1000,small,light,very expensive
+230,HP,fast,32,1000,big,average,very expensive
+231,Dell,fast,16,512,big,light,normal
+232,Asus,slow,4,512,small,heavy,normal
+233,Asus,fast,8,256,big,average,cheap
+234,Dell,slow,32,1000,big,heavy,very expensive
+235,HP,medium,16,512,average,light,normal
+236,Dell,slow,4,256,average,heavy,cheap
+237,Asus,slow,32,256,small,heavy,cheap
+238,Acer,slow,32,512,small,heavy,normal
+239,Acer,fast,8,1000,small,light,very expensive
+240,Lenovo,slow,32,256,big,average,cheap
+241,Dell,fast,8,1000,small,heavy,very expensive
+242,Dell,slow,16,1000,big,light,very expensive
+243,Lenovo,slow,8,1000,average,light,very expensive
+244,Lenovo,medium,4,256,average,average,cheap
+245,Lenovo,fast,8,1000,big,average,very expensive
+246,Asus,slow,4,256,big,light,cheap
+247,Dell,medium,8,1000,average,light,very expensive
+248,Asus,fast,32,256,average,light,cheap
+249,Lenovo,medium,16,1000,average,heavy,very expensive
+250,Dell,slow,4,512,small,average,normal
+251,Asus,slow,8,1000,small,heavy,very expensive
+252,Asus,fast,8,1000,average,heavy,very expensive
+253,Lenovo,slow,8,256,average,average,cheap
+254,Dell,fast,32,256,big,light,cheap
+255,Lenovo,medium,32,1000,average,light,very expensive
+256,Dell,fast,4,512,average,light,normal
+257,Acer,fast,4,512,average,heavy,normal
+258,HP,fast,32,256,big,average,cheap
+259,HP,medium,4,512,big,light,normal
+260,HP,fast,16,1000,average,average,very expensive
+261,Lenovo,medium,16,256,big,average,cheap
+262,Acer,medium,32,1000,small,average,very expensive
+263,Dell,medium,4,256,average,light,cheap
+264,Asus,fast,8,256,average,heavy,cheap
+265,Dell,fast,16,256,average,average,cheap
+266,Asus,fast,32,256,big,light,cheap
+267,Dell,medium,4,512,big,heavy,normal
+268,Acer,medium,32,1000,small,light,very expensive
+269,Asus,fast,8,1000,average,heavy,very expensive
+270,Lenovo,slow,16,1000,average,heavy,very expensive
+271,Dell,slow,32,256,small,heavy,cheap
+272,Dell,medium,32,512,small,heavy,normal
+273,Asus,slow,32,1000,small,average,very expensive
+274,Lenovo,slow,8,512,small,heavy,normal
+275,Lenovo,slow,32,256,small,average,cheap
+276,Acer,slow,8,1000,small,heavy,very expensive
+277,Lenovo,slow,8,512,average,heavy,normal
+278,Lenovo,fast,8,256,big,heavy,cheap
+279,Lenovo,medium,16,512,average,heavy,normal
+280,HP,medium,16,1000,big,light,very expensive
+281,Acer,medium,32,1000,average,heavy,very expensive
+282,Dell,slow,32,256,big,average,cheap
+283,Asus,fast,16,256,big,heavy,cheap
+284,Dell,fast,4,256,big,heavy,cheap
+285,Acer,slow,16,512,average,light,normal
+286,Asus,medium,8,512,big,average,normal
+287,Acer,fast,16,512,small,average,normal
+288,Lenovo,fast,8,256,small,heavy,cheap
+289,Asus,medium,32,1000,average,light,very expensive
+290,Lenovo,medium,4,1000,average,average,very expensive
+291,Dell,slow,32,512,small,average,normal
+292,Dell,fast,8,512,big,heavy,normal
+293,Asus,slow,8,1000,big,average,very expensive
+294,Asus,fast,8,1000,average,light,very expensive
+295,Acer,medium,4,512,big,light,normal
+296,Acer,medium,16,512,average,light,normal
+297,Lenovo,medium,32,1000,big,average,very expensive
+298,Asus,slow,32,256,average,light,cheap
+299,Dell,slow,16,512,small,light,normal
+300,Acer,slow,32,1000,big,heavy,very expensive
+301,Acer,slow,4,1000,big,heavy,very expensive
+302,Dell,fast,32,1000,big,average,very expensive
+303,Acer,medium,8,1000,big,heavy,very expensive
+304,Lenovo,slow,16,256,big,light,cheap
+305,Asus,fast,4,1000,average,average,very expensive
+306,Dell,fast,16,512,big,average,normal
+307,Asus,fast,4,256,big,average,cheap
+308,Acer,fast,8,1000,average,average,very expensive
+309,Acer,slow,16,256,big,average,cheap
+310,Dell,medium,32,512,small,average,normal
+311,Lenovo,fast,4,1000,big,heavy,very expensive
+312,HP,fast,16,512,big,light,normal
+313,Dell,slow,32,1000,big,light,very expensive
+314,HP,fast,16,1000,big,light,very expensive
+315,HP,slow,16,1000,big,light,very expensive
+316,Lenovo,slow,16,1000,average,average,very expensive
+317,HP,medium,4,1000,big,light,very expensive
+318,HP,medium,32,256,small,heavy,cheap
+319,Lenovo,medium,8,1000,small,light,very expensive
+320,HP,slow,4,1000,small,light,very expensive
+321,HP,fast,4,256,average,heavy,cheap
+322,HP,slow,4,256,average,light,cheap
+323,Dell,slow,8,256,big,average,cheap
+324,Dell,fast,32,256,average,heavy,cheap
+325,Dell,fast,32,256,average,light,cheap
+326,Lenovo,fast,32,256,small,light,cheap
+327,Acer,fast,16,1000,average,average,very expensive
+328,HP,medium,16,1000,average,light,very expensive
+329,HP,medium,16,512,small,light,normal
+330,Lenovo,slow,8,1000,small,light,very expensive
+331,HP,medium,16,1000,small,light,very expensive
+332,Dell,medium,8,256,small,average,cheap
+333,Acer,slow,32,256,average,heavy,cheap
+334,Asus,fast,16,1000,small,average,very expensive
+335,HP,medium,16,512,big,light,normal
+336,Dell,slow,4,256,big,light,cheap
+337,Asus,slow,8,1000,average,heavy,very expensive
+338,Acer,fast,32,1000,big,average,very expensive
+339,Asus,slow,4,512,average,heavy,normal
+340,Dell,fast,4,512,average,average,normal
+341,Asus,medium,32,256,big,average,cheap
+342,Lenovo,medium,4,512,small,average,normal
+343,Asus,medium,8,1000,big,light,very expensive
+344,HP,fast,8,1000,small,average,very expensive
+345,HP,medium,16,512,average,average,normal
+346,Lenovo,medium,4,512,small,light,normal
+347,Dell,medium,16,512,big,light,normal
+348,HP,slow,4,512,average,heavy,normal
+349,Acer,fast,8,256,big,heavy,cheap
+350,HP,fast,8,512,average,average,normal
+351,HP,medium,8,256,average,light,cheap
+352,Dell,fast,4,1000,small,light,very expensive
+353,Asus,fast,8,512,average,heavy,normal
+354,HP,fast,4,256,big,light,cheap
+355,Lenovo,fast,16,512,average,heavy,normal
+356,Asus,fast,4,1000,big,light,very expensive
+357,Acer,fast,16,1000,big,average,very expensive
+358,Dell,medium,4,1000,average,average,very expensive
+359,Acer,fast,16,512,average,heavy,normal
+360,Asus,slow,8,512,small,average,normal
+361,Asus,fast,16,256,small,average,cheap
+362,Asus,fast,8,1000,small,heavy,very expensive
+363,Acer,slow,8,512,average,light,normal
+364,Asus,fast,16,1000,average,heavy,very expensive
+365,Acer,slow,4,1000,average,light,expensive
+366,Asus,slow,4,256,average,heavy,cheap
+367,Lenovo,fast,32,256,average,average,cheap
+368,Asus,slow,4,256,big,average,cheap
+369,Acer,fast,32,256,big,heavy,cheap
+370,HP,fast,4,1000,small,light,very expensive
+371,Asus,medium,4,256,small,light,cheap
+372,HP,slow,8,256,big,average,cheap
+373,Lenovo,slow,32,256,average,average,cheap
+374,Dell,medium,4,256,average,average,cheap
+375,Lenovo,fast,32,1000,average,light,very expensive
+376,Asus,medium,8,256,average,light,cheap
+377,HP,slow,8,1000,small,light,very expensive
+378,HP,medium,32,512,small,light,normal
+379,Acer,medium,8,1000,average,average,very expensive
+380,HP,fast,16,1000,average,heavy,very expensive
+381,Acer,slow,16,256,big,heavy,cheap
+382,Dell,fast,8,512,big,heavy,normal
+383,Asus,medium,16,512,average,light,normal
+384,Acer,fast,4,512,big,average,normal
+385,Dell,medium,32,512,small,light,normal
+386,HP,medium,4,1000,average,light,very expensive
+387,HP,fast,32,512,big,average,expensive
+388,Dell,slow,8,1000,average,light,very expensive
+389,HP,fast,4,1000,average,light,very expensive
+390,Dell,fast,8,1000,small,heavy,very expensive
+391,Acer,slow,8,512,average,average,normal
+392,Acer,slow,32,256,big,average,cheap
+393,Dell,fast,32,256,big,light,cheap
+394,Acer,slow,32,512,big,light,normal
+395,Acer,medium,4,256,big,heavy,cheap
+396,Acer,medium,16,256,average,light,cheap
+397,Lenovo,medium,32,1000,average,average,very expensive
+398,Asus,slow,32,1000,small,light,very expensive
+399,HP,fast,4,512,average,average,normal
+400,Lenovo,fast,32,512,average,light,expensive
+401,Acer,fast,4,256,big,heavy,cheap
+402,Dell,fast,8,1000,average,heavy,very expensive
+403,Acer,slow,32,512,average,heavy,normal
+404,Asus,fast,32,512,average,light,normal
+405,Acer,slow,8,512,average,heavy,normal
+406,Dell,slow,8,512,big,average,normal
+407,Asus,slow,8,512,small,average,normal
+408,Acer,medium,32,512,average,average,normal
+409,Asus,fast,16,256,big,light,cheap
+410,HP,fast,16,1000,average,light,very expensive
+411,HP,medium,16,1000,small,heavy,very expensive
+412,Acer,slow,32,512,average,light,normal
+413,Asus,fast,8,1000,big,average,very expensive
+414,Dell,medium,32,1000,small,average,very expensive
+415,Acer,medium,8,1000,big,heavy,very expensive
+416,HP,slow,32,512,big,heavy,normal
+417,HP,fast,32,512,average,heavy,normal
+418,Acer,fast,8,1000,big,light,very expensive
+419,Asus,slow,16,1000,big,light,very expensive
+420,HP,slow,8,512,big,average,normal
+421,Asus,fast,4,256,big,light,cheap
+422,HP,medium,4,1000,small,light,very expensive
+423,HP,slow,8,256,small,average,cheap
+424,Lenovo,fast,32,1000,average,average,very expensive
+425,HP,slow,4,256,small,heavy,cheap
+426,Dell,medium,4,256,average,light,cheap
+427,Acer,fast,32,256,big,light,cheap
+428,Acer,medium,32,512,big,light,normal
+429,Asus,medium,16,256,average,heavy,cheap
+430,HP,medium,32,256,big,heavy,cheap
+431,Dell,slow,8,256,big,heavy,cheap
+432,Asus,fast,8,1000,average,heavy,very expensive
+433,Lenovo,medium,16,256,small,average,cheap
+434,Asus,fast,4,1000,average,average,very expensive
+435,Asus,slow,4,256,big,light,cheap
+436,HP,slow,32,256,average,average,cheap
+437,Lenovo,slow,8,512,big,average,normal
+438,Asus,medium,4,1000,small,average,very expensive
+439,Dell,medium,16,256,big,heavy,cheap
+440,Dell,fast,16,1000,big,heavy,very expensive
+441,Acer,medium,8,1000,big,heavy,very expensive
+442,Lenovo,fast,16,512,big,heavy,normal
+443,Lenovo,slow,16,512,big,heavy,normal
+444,Acer,fast,8,512,big,light,normal
+445,Asus,fast,32,512,big,light,normal
+446,Lenovo,fast,32,512,big,heavy,normal
+447,Dell,fast,16,512,big,heavy,normal
+448,Dell,fast,32,512,small,light,expensive
+449,HP,medium,32,512,average,heavy,normal
+450,Lenovo,slow,16,256,average,light,cheap
+451,Asus,slow,32,1000,small,light,very expensive
+452,Acer,fast,16,512,small,heavy,normal
+453,Acer,medium,4,512,big,light,normal
+454,Asus,fast,8,1000,big,light,very expensive
+455,HP,medium,8,256,big,light,cheap
+456,Acer,slow,32,1000,average,heavy,very expensive
+457,Lenovo,slow,32,1000,small,average,very expensive
+458,HP,fast,32,512,small,average,normal
+459,Lenovo,medium,8,1000,small,average,very expensive
+460,Dell,slow,4,1000,small,light,very expensive
+461,HP,medium,4,512,small,heavy,normal
+462,Acer,slow,8,512,big,light,normal
+463,HP,medium,4,512,big,heavy,normal
+464,HP,slow,8,512,small,average,normal
+465,HP,fast,4,1000,small,heavy,expensive
+466,HP,slow,16,1000,average,light,very expensive
+467,Lenovo,medium,16,256,small,average,cheap
+468,Dell,slow,8,256,big,light,cheap
+469,Asus,slow,4,1000,average,light,very expensive
+470,HP,medium,32,256,average,average,cheap
+471,Acer,medium,4,1000,average,light,expensive
+472,HP,medium,16,256,small,average,cheap
+473,Acer,slow,16,512,average,light,normal
+474,Lenovo,fast,4,256,big,light,cheap
+475,Acer,fast,4,512,big,heavy,normal
+476,Asus,fast,32,512,small,average,normal
+477,Dell,slow,32,512,average,average,normal
+478,Acer,medium,4,512,average,average,normal
+479,Acer,slow,4,256,big,heavy,cheap
+480,Dell,slow,4,1000,average,light,very expensive
+481,Asus,fast,4,512,average,heavy,normal
+482,HP,slow,8,256,average,heavy,cheap
+483,Acer,medium,4,512,average,heavy,normal
+484,Dell,medium,32,256,average,average,cheap
+485,Lenovo,fast,16,256,average,average,cheap
+486,Dell,medium,8,256,average,heavy,cheap
+487,Lenovo,slow,4,1000,big,average,very expensive
+488,Asus,slow,16,256,average,light,cheap
+489,HP,medium,8,256,big,light,cheap
+490,Dell,slow,16,1000,average,heavy,very expensive
+491,Acer,medium,4,1000,big,light,very expensive
+492,Asus,slow,4,256,big,heavy,cheap
+493,Dell,slow,32,1000,average,average,very expensive
+494,Acer,medium,4,512,big,average,normal
+495,Dell,slow,4,512,small,light,normal
+496,Lenovo,medium,8,1000,big,light,very expensive
+497,Dell,fast,32,1000,average,heavy,very expensive
+498,Dell,fast,8,256,small,heavy,cheap
+499,Dell,slow,16,1000,average,average,very expensive
+500,Asus,slow,4,256,big,average,cheap
+501,Dell,slow,16,512,small,heavy,normal
+502,Acer,medium,8,1000,average,average,very expensive
+503,Lenovo,fast,4,256,big,average,cheap
+504,Lenovo,slow,4,256,big,light,cheap
+505,Dell,fast,8,512,average,average,normal
+506,Asus,slow,8,1000,small,heavy,very expensive
+507,Asus,medium,8,512,small,heavy,normal
+508,Acer,fast,8,256,average,light,cheap
+509,Dell,fast,8,256,average,heavy,cheap
+510,Lenovo,fast,4,1000,big,average,very expensive
+511,Asus,fast,8,256,small,average,cheap
+512,Dell,slow,4,1000,big,light,very expensive
+513,Asus,fast,4,512,small,average,normal
+514,Asus,slow,8,1000,small,average,very expensive
+515,Lenovo,fast,8,1000,average,light,very expensive
+516,HP,medium,32,256,average,heavy,cheap
+517,Acer,fast,4,256,big,heavy,cheap
+518,Acer,medium,8,1000,big,average,very expensive
+519,Lenovo,medium,8,256,average,heavy,cheap
+520,Asus,medium,8,256,big,average,cheap
+521,Dell,fast,32,256,big,light,cheap
+522,Asus,slow,32,1000,average,average,very expensive
+523,Lenovo,slow,16,256,big,light,cheap
+524,Acer,slow,4,1000,average,light,very expensive
+525,Asus,slow,16,256,small,light,cheap
+526,Acer,fast,8,512,big,light,normal
+527,Dell,slow,32,256,small,heavy,cheap
+528,Acer,fast,32,256,average,light,cheap
+529,Acer,slow,16,1000,big,average,very expensive
+530,HP,slow,32,1000,small,light,very expensive
+531,HP,fast,8,256,small,heavy,cheap
+532,HP,medium,32,512,big,light,normal
+533,Acer,medium,16,256,average,heavy,cheap
+534,Lenovo,medium,8,256,small,average,cheap
+535,Acer,fast,16,512,big,light,normal
+536,Lenovo,slow,32,1000,average,average,very expensive
+537,Lenovo,fast,16,256,average,light,cheap
+538,HP,fast,16,1000,big,average,very expensive
+539,Asus,medium,4,1000,big,light,very expensive
+540,Dell,slow,32,512,average,heavy,normal
+541,HP,fast,32,512,big,light,expensive
+542,HP,slow,16,1000,big,heavy,very expensive
+543,Asus,slow,4,256,small,light,cheap
+544,Dell,slow,32,1000,small,light,very expensive
+545,Acer,medium,8,256,small,average,cheap
+546,Acer,fast,16,256,big,heavy,cheap
+547,HP,fast,32,512,average,light,normal
+548,Dell,fast,8,256,average,light,cheap
+549,HP,medium,32,256,big,light,cheap
+550,Lenovo,medium,8,1000,big,light,very expensive
+551,HP,medium,16,512,small,light,normal
+552,HP,fast,32,256,average,average,cheap
+553,Acer,slow,32,256,average,light,cheap
+554,Acer,fast,4,512,average,light,normal
+555,Acer,medium,16,1000,big,heavy,very expensive
+556,Lenovo,medium,8,512,big,average,normal
+557,Acer,fast,32,512,small,light,normal
+558,Dell,medium,32,256,average,light,cheap
+559,Asus,fast,8,256,big,average,cheap
+560,Dell,fast,16,1000,average,light,very expensive
+561,Dell,medium,4,256,small,average,cheap
+562,Acer,slow,4,256,average,light,cheap
+563,Asus,medium,32,512,small,average,normal
+564,Asus,fast,8,256,big,light,cheap
+565,Asus,slow,32,1000,small,average,very expensive
+566,Lenovo,medium,8,512,average,heavy,normal
+567,Acer,medium,4,1000,average,average,very expensive
+568,Asus,fast,16,512,big,light,normal
+569,Lenovo,slow,8,256,small,light,cheap
+570,HP,fast,4,512,small,light,normal
+571,HP,fast,32,512,small,light,expensive
+572,Lenovo,slow,8,256,small,light,cheap
+573,Lenovo,slow,16,256,small,heavy,cheap
+574,Acer,fast,32,1000,average,average,very expensive
+575,Acer,slow,32,1000,small,average,very expensive
+576,HP,fast,4,256,small,average,cheap
+577,Asus,medium,8,256,big,average,cheap
+578,HP,slow,32,256,average,light,cheap
+579,Asus,fast,16,512,average,heavy,normal
+580,Asus,medium,8,512,small,light,normal
+581,Acer,medium,16,512,big,heavy,normal
+582,Dell,medium,32,256,small,heavy,cheap
+583,Dell,medium,16,1000,big,heavy,very expensive
+584,Lenovo,slow,4,256,big,average,cheap
+585,Acer,medium,16,512,small,light,normal
+586,Asus,fast,8,512,big,average,normal
+587,Dell,slow,16,256,small,average,cheap
+588,Asus,medium,16,256,small,average,cheap
+589,Dell,slow,4,512,big,heavy,normal
+590,Dell,fast,16,512,big,light,normal
+591,Dell,slow,16,512,average,light,normal
+592,Acer,fast,32,256,small,light,cheap
+593,HP,medium,32,512,average,light,expensive
+594,Asus,slow,8,512,big,average,normal
+595,Acer,slow,32,1000,small,heavy,very expensive
+596,Acer,slow,32,256,small,average,cheap
+597,Acer,medium,32,1000,small,heavy,very expensive
+598,Acer,slow,32,1000,small,heavy,very expensive
+599,Acer,fast,4,512,big,heavy,normal
+600,Lenovo,medium,32,256,average,light,cheap
+601,Asus,slow,4,512,big,heavy,normal
+602,Acer,medium,4,256,average,light,cheap
+603,Asus,fast,32,1000,big,light,very expensive
+604,Lenovo,slow,16,256,small,average,cheap
+605,Lenovo,slow,4,512,average,light,normal
+606,Asus,slow,16,512,small,light,normal
+607,Dell,fast,16,512,average,light,normal
+608,HP,medium,32,256,average,light,cheap
+609,Dell,medium,8,1000,big,heavy,very expensive
+610,Dell,fast,32,1000,average,light,very expensive
+611,Dell,fast,8,256,small,light,cheap
+612,Acer,medium,8,512,small,average,normal
+613,Lenovo,fast,32,1000,small,average,very expensive
+614,Dell,slow,32,512,average,heavy,normal
+615,Lenovo,slow,8,256,big,light,cheap
+616,Asus,slow,32,512,big,average,normal
+617,HP,slow,8,1000,small,heavy,very expensive
+618,Asus,medium,16,1000,average,heavy,very expensive
+619,Asus,fast,32,512,average,average,expensive
+620,Acer,slow,16,256,average,heavy,cheap
+621,HP,slow,4,512,average,light,normal
+622,Asus,medium,16,256,big,average,cheap
+623,Asus,fast,16,512,average,average,normal
+624,HP,slow,8,1000,small,heavy,very expensive
+625,HP,medium,16,256,big,light,cheap
+626,Asus,slow,32,256,small,light,cheap
+627,HP,slow,8,256,big,light,cheap
+628,Asus,fast,4,1000,average,light,very expensive
+629,Asus,fast,32,512,average,light,normal
+630,Acer,slow,4,1000,big,heavy,very expensive
+631,Dell,fast,16,256,big,average,cheap
+632,Asus,medium,32,512,big,average,expensive
+633,Lenovo,fast,32,1000,average,heavy,very expensive
+634,Dell,medium,4,256,big,average,cheap
+635,Dell,medium,32,256,average,light,cheap
+636,Dell,medium,32,1000,big,light,very expensive
+637,Acer,medium,32,1000,average,light,very expensive
+638,Asus,slow,16,1000,big,average,very expensive
+639,Acer,slow,4,256,big,average,cheap
+640,Asus,slow,32,1000,big,light,very expensive
+641,Acer,fast,8,256,small,average,cheap
+642,Acer,slow,8,1000,small,heavy,very expensive
+643,Lenovo,medium,8,256,big,heavy,cheap
+644,Acer,fast,8,256,small,heavy,cheap
+645,HP,slow,16,512,big,heavy,normal
+646,Lenovo,medium,32,1000,average,light,very expensive
+647,Acer,medium,4,1000,average,heavy,very expensive
+648,Dell,fast,32,256,big,light,cheap
+649,HP,slow,16,256,average,average,cheap
+650,HP,fast,8,256,average,average,cheap
+651,HP,fast,16,512,average,light,normal
+652,Lenovo,fast,32,512,average,heavy,normal
+653,Acer,fast,4,256,big,heavy,cheap
+654,Acer,medium,16,1000,small,light,very expensive
+655,Dell,medium,4,1000,big,heavy,very expensive
+656,Dell,fast,16,512,big,light,normal
+657,HP,medium,4,512,average,average,normal
+658,Dell,slow,4,256,big,average,cheap
+659,Lenovo,fast,8,1000,average,average,very expensive
+660,Acer,fast,4,256,average,heavy,cheap
+661,HP,medium,8,512,big,heavy,normal
+662,Dell,slow,32,1000,small,heavy,very expensive
+663,Lenovo,medium,32,1000,small,light,very expensive
+664,Lenovo,medium,8,512,average,heavy,normal
+665,Dell,medium,8,256,average,light,cheap
+666,Acer,slow,16,256,average,heavy,cheap
+667,Dell,medium,16,1000,big,light,very expensive
+668,HP,fast,16,512,average,light,normal
+669,Dell,slow,32,1000,average,heavy,very expensive
+670,Lenovo,fast,16,512,small,light,normal
+671,Dell,medium,4,256,average,light,cheap
+672,Acer,fast,4,512,small,light,normal
+673,Asus,fast,16,256,small,light,cheap
+674,Dell,medium,4,512,average,light,normal
+675,Acer,fast,32,1000,small,light,very expensive
+676,Acer,fast,4,256,small,average,cheap
+677,Lenovo,medium,32,1000,small,light,very expensive
+678,Acer,slow,8,1000,big,heavy,very expensive
+679,Acer,medium,8,256,big,light,cheap
+680,Acer,fast,8,256,average,heavy,cheap
+681,Acer,fast,8,1000,big,heavy,very expensive
+682,HP,fast,4,1000,big,light,very expensive
+683,HP,medium,16,1000,average,heavy,very expensive
+684,Lenovo,fast,4,1000,small,heavy,very expensive
+685,Dell,slow,32,256,big,heavy,cheap
+686,Acer,medium,4,256,big,average,cheap
+687,Dell,slow,4,1000,average,light,very expensive
+688,Dell,slow,32,512,big,average,normal
+689,Lenovo,medium,8,512,average,average,normal
+690,Acer,medium,8,256,big,average,cheap
+691,Acer,fast,8,1000,big,light,very expensive
+692,Asus,medium,16,1000,average,heavy,very expensive
+693,Dell,medium,32,256,big,heavy,cheap
+694,Dell,slow,32,512,average,light,normal
+695,HP,medium,4,512,big,light,normal
+696,Asus,slow,16,512,big,light,normal
+697,HP,slow,8,256,small,heavy,cheap
+698,HP,medium,16,512,average,heavy,normal
+699,HP,medium,32,256,small,average,cheap
+700,Lenovo,medium,32,256,big,average,cheap
+701,Lenovo,medium,4,1000,average,average,very expensive
+702,HP,medium,4,512,big,light,normal
+703,Asus,fast,32,256,small,average,cheap
+704,Dell,medium,8,512,average,heavy,normal
+705,Asus,medium,8,512,small,heavy,normal
+706,Acer,slow,16,1000,big,heavy,very expensive
+707,Lenovo,medium,32,512,big,heavy,normal
+708,Dell,medium,32,1000,big,average,very expensive
+709,Dell,medium,8,256,big,average,cheap
+710,Acer,medium,8,512,big,heavy,normal
+711,Acer,medium,32,256,small,heavy,cheap
+712,HP,medium,4,512,average,light,normal
+713,Lenovo,fast,32,256,average,light,cheap
+714,Lenovo,fast,32,512,big,light,normal
+715,Asus,fast,8,512,big,average,normal
+716,HP,fast,8,512,small,light,normal
+717,HP,slow,4,512,big,light,normal
+718,HP,slow,4,512,big,light,normal
+719,HP,slow,16,512,average,average,normal
+720,Lenovo,medium,32,512,small,heavy,normal
+721,Lenovo,fast,8,512,small,light,normal
+722,HP,slow,4,512,average,heavy,normal
+723,Asus,fast,16,256,average,average,cheap
+724,Dell,slow,16,1000,small,heavy,very expensive
+725,Dell,fast,8,512,average,light,normal
+726,Asus,medium,8,1000,big,heavy,very expensive
+727,HP,slow,16,512,big,average,normal
+728,Lenovo,medium,4,512,big,heavy,normal
+729,Dell,slow,16,256,average,heavy,cheap
+730,Acer,slow,32,256,small,light,cheap
+731,Acer,slow,32,1000,big,light,very expensive
+732,Asus,fast,8,256,average,light,cheap
+733,HP,medium,4,256,small,average,cheap
+734,Dell,slow,4,1000,small,light,very expensive
+735,HP,medium,32,256,average,light,cheap
+736,Dell,fast,16,512,small,average,normal
+737,Asus,slow,8,1000,small,light,very expensive
+738,Asus,medium,16,1000,small,light,very expensive
+739,Acer,slow,16,512,small,average,normal
+740,HP,slow,16,256,average,light,cheap
+741,Acer,fast,4,1000,average,average,very expensive
+742,HP,slow,32,1000,average,average,very expensive
+743,Acer,medium,4,512,small,average,normal
+744,Lenovo,fast,32,512,small,heavy,normal
+745,Lenovo,slow,8,256,average,average,cheap
+746,Lenovo,medium,8,1000,average,average,very expensive
+747,Lenovo,slow,16,256,average,average,cheap
+748,Dell,fast,32,256,average,heavy,cheap
+749,Lenovo,medium,32,512,big,heavy,normal
+750,Asus,fast,32,1000,average,heavy,very expensive
+751,Asus,medium,16,1000,average,heavy,very expensive
+752,Dell,slow,16,1000,big,light,very expensive
+753,Lenovo,medium,8,512,average,light,normal
+754,Lenovo,fast,4,512,average,light,normal
+755,Lenovo,medium,32,512,average,heavy,normal
+756,Acer,fast,32,512,big,average,normal
+757,HP,fast,4,512,small,heavy,normal
+758,Acer,slow,32,1000,small,light,very expensive
+759,HP,slow,16,256,small,heavy,cheap
+760,Lenovo,medium,16,1000,big,light,very expensive
+761,Lenovo,medium,32,256,small,light,cheap
+762,Acer,fast,16,512,big,average,normal
+763,Acer,fast,16,256,average,average,cheap
+764,HP,medium,32,1000,big,average,very expensive
+765,Asus,slow,8,1000,big,heavy,very expensive
+766,HP,fast,4,256,average,light,cheap
+767,Acer,slow,16,512,small,average,normal
+768,Acer,fast,8,512,small,average,normal
+769,Dell,medium,16,1000,small,light,very expensive
+770,Acer,medium,16,256,big,heavy,cheap
+771,Dell,slow,4,512,small,heavy,normal
+772,Asus,medium,16,512,average,heavy,normal
+773,HP,medium,4,1000,average,heavy,very expensive
+774,HP,medium,4,512,big,heavy,normal
+775,Dell,slow,4,256,small,light,cheap
+776,HP,fast,8,1000,small,heavy,very expensive
+777,Acer,fast,32,1000,small,light,very expensive
+778,Lenovo,slow,8,256,big,light,cheap
+779,Dell,slow,32,1000,average,light,very expensive
+780,HP,slow,32,512,small,heavy,normal
+781,Dell,medium,4,512,small,heavy,normal
+782,Dell,medium,16,256,small,light,cheap
+783,Lenovo,medium,4,512,small,heavy,normal
+784,Acer,slow,16,256,big,heavy,cheap
+785,Dell,medium,32,256,big,light,cheap
+786,HP,medium,4,512,average,light,normal
+787,Asus,medium,16,256,big,heavy,cheap
+788,Dell,fast,8,512,small,light,normal
+789,Dell,slow,16,1000,big,average,very expensive
+790,Lenovo,fast,4,1000,big,light,very expensive
+791,Acer,medium,8,256,average,average,cheap
+792,Asus,medium,16,512,big,heavy,normal
+793,HP,fast,16,512,small,heavy,normal
+794,Asus,fast,16,1000,small,heavy,very expensive
+795,HP,fast,16,1000,small,heavy,very expensive
+796,Acer,slow,16,512,average,heavy,normal
+797,HP,slow,8,256,big,heavy,cheap
+798,Lenovo,fast,32,1000,big,light,very expensive
+799,Lenovo,medium,8,256,average,average,cheap
+800,Lenovo,slow,8,256,big,light,cheap
+801,Lenovo,slow,8,1000,big,heavy,very expensive
+802,Asus,slow,32,256,small,light,cheap
+803,Acer,fast,4,256,average,average,cheap
+804,HP,slow,32,512,small,light,normal
+805,HP,slow,8,256,big,heavy,cheap
+806,Lenovo,slow,16,512,big,heavy,normal
+807,Lenovo,medium,16,1000,small,average,very expensive
+808,Dell,slow,8,1000,big,heavy,very expensive
+809,Acer,medium,16,512,average,light,normal
+810,Asus,slow,8,1000,average,average,very expensive
+811,HP,fast,16,256,average,heavy,cheap
+812,Dell,slow,32,256,average,light,cheap
+813,Dell,medium,4,256,small,heavy,cheap
+814,HP,fast,4,1000,small,light,very expensive
+815,Asus,medium,32,256,small,light,cheap
+816,Dell,medium,32,1000,average,heavy,very expensive
+817,Dell,slow,8,256,small,light,cheap
+818,Acer,slow,8,512,big,heavy,normal
+819,Asus,medium,8,1000,average,heavy,very expensive
+820,Dell,fast,16,1000,big,light,very expensive
+821,Asus,medium,8,256,average,average,cheap
+822,HP,medium,32,1000,average,light,very expensive
+823,Lenovo,fast,4,1000,big,average,very expensive
+824,Dell,medium,16,512,small,light,normal
+825,Acer,slow,8,512,small,light,normal
+826,HP,medium,16,256,big,average,cheap
+827,Asus,fast,16,512,small,average,normal
+828,HP,slow,8,256,small,heavy,cheap
+829,Dell,fast,16,256,average,heavy,cheap
+830,Asus,slow,4,256,small,heavy,cheap
+831,Lenovo,medium,32,1000,average,average,very expensive
+832,HP,slow,32,512,small,heavy,normal
+833,Dell,medium,4,256,big,average,cheap
+834,Acer,fast,16,512,big,heavy,normal
+835,Asus,medium,8,256,big,heavy,cheap
+836,HP,medium,16,512,average,light,normal
+837,HP,fast,4,512,big,heavy,normal
+838,Lenovo,fast,16,256,small,heavy,cheap
+839,Lenovo,slow,32,1000,big,heavy,very expensive
+840,Acer,medium,16,512,big,heavy,normal
+841,Acer,slow,4,1000,big,light,very expensive
+842,Dell,fast,32,1000,average,light,very expensive
+843,Dell,fast,16,256,small,light,cheap
+844,Acer,medium,16,256,average,heavy,cheap
+845,Acer,fast,32,256,big,light,cheap
+846,Asus,medium,8,512,small,heavy,normal
+847,Lenovo,medium,32,256,big,light,cheap
+848,Dell,slow,8,256,small,light,cheap
+849,Lenovo,fast,4,512,small,average,normal
+850,Lenovo,slow,4,512,small,heavy,normal
+851,Acer,fast,32,256,small,light,cheap
+852,Asus,fast,32,256,average,average,cheap
+853,HP,fast,4,256,small,average,cheap
+854,Asus,slow,8,256,big,light,cheap
+855,Asus,slow,4,1000,average,light,very expensive
+856,Lenovo,slow,32,1000,small,heavy,very expensive
+857,Asus,medium,4,256,big,average,cheap
+858,Dell,slow,32,1000,big,light,very expensive
+859,Lenovo,fast,32,512,big,heavy,expensive
+860,Dell,medium,4,1000,small,heavy,very expensive
+861,HP,slow,8,1000,big,average,very expensive
+862,Lenovo,medium,16,256,big,average,cheap
+863,HP,medium,4,1000,small,heavy,very expensive
+864,Lenovo,medium,16,1000,small,heavy,very expensive
+865,Acer,medium,4,1000,average,heavy,very expensive
+866,Asus,fast,16,1000,small,average,very expensive
+867,Acer,medium,8,512,big,average,normal
+868,HP,fast,8,256,average,heavy,cheap
+869,Asus,fast,4,256,big,light,cheap
+870,Lenovo,slow,32,512,average,average,normal
+871,Asus,fast,16,1000,small,heavy,very expensive
+872,Dell,slow,32,512,small,average,normal
+873,Asus,fast,32,1000,average,average,very expensive
+874,Dell,medium,32,512,big,average,normal
+875,Asus,fast,8,256,big,light,cheap
+876,Dell,fast,4,256,small,average,cheap
+877,HP,fast,4,256,small,heavy,cheap
+878,Acer,fast,8,1000,small,light,very expensive
+879,Lenovo,slow,8,1000,big,light,very expensive
+880,Asus,slow,4,512,small,heavy,normal
+881,Acer,medium,32,512,average,light,normal
+882,Lenovo,slow,16,256,average,light,cheap
+883,Lenovo,fast,16,1000,big,heavy,very expensive
+884,Dell,medium,16,512,small,heavy,normal
+885,HP,fast,32,1000,small,heavy,very expensive
+886,HP,medium,4,1000,average,heavy,very expensive
+887,Acer,fast,8,256,average,light,cheap
+888,HP,slow,4,256,small,heavy,cheap
+889,Asus,fast,32,1000,big,average,very expensive
+890,HP,fast,8,1000,big,heavy,very expensive
+891,Acer,medium,32,1000,small,average,very expensive
+892,HP,medium,16,1000,small,average,very expensive
+893,Asus,fast,16,256,average,average,cheap
+894,Dell,slow,32,512,big,average,normal
+895,Acer,medium,8,256,small,heavy,cheap
+896,Dell,medium,8,512,big,average,normal
+897,Dell,slow,4,1000,average,average,very expensive
+898,Dell,medium,16,512,small,average,normal
+899,Lenovo,slow,4,256,big,average,cheap
+900,Lenovo,slow,4,256,big,heavy,cheap
+901,Dell,slow,32,1000,small,heavy,very expensive
+902,Acer,fast,32,256,small,heavy,cheap
+903,Asus,medium,4,1000,average,heavy,very expensive
+904,Asus,fast,16,256,big,heavy,cheap
+905,HP,medium,32,256,big,average,cheap
+906,Acer,slow,4,1000,average,heavy,very expensive
+907,Lenovo,medium,4,512,big,heavy,normal
+908,Dell,medium,4,256,average,average,cheap
+909,HP,slow,4,512,average,heavy,normal
+910,Asus,medium,4,256,small,heavy,cheap
+911,Lenovo,slow,4,256,small,average,cheap
+912,Lenovo,medium,32,256,small,light,cheap
+913,Dell,medium,16,256,average,average,cheap
+914,Asus,slow,4,512,small,heavy,normal
+915,Acer,slow,8,512,big,average,normal
+916,Lenovo,fast,32,256,small,average,cheap
+917,Dell,medium,32,256,small,heavy,cheap
+918,Acer,slow,4,512,average,average,normal
+919,Asus,fast,32,1000,big,average,very expensive
+920,Lenovo,slow,4,1000,small,heavy,very expensive
+921,Acer,fast,16,512,small,heavy,normal
+922,Acer,fast,16,256,big,light,cheap
+923,Acer,slow,32,256,small,average,cheap
+924,Lenovo,slow,32,1000,small,average,very expensive
+925,Lenovo,slow,8,1000,big,average,very expensive
+926,HP,slow,32,512,small,average,normal
+927,Asus,slow,8,1000,average,average,very expensive
+928,Dell,fast,16,512,average,light,normal
+929,Acer,slow,16,1000,small,average,very expensive
+930,HP,medium,4,1000,small,light,very expensive
+931,Dell,fast,16,1000,small,average,very expensive
+932,HP,fast,8,256,small,heavy,cheap
+933,Lenovo,medium,32,256,small,heavy,cheap
+934,Acer,slow,4,256,big,average,cheap
+935,Dell,medium,8,1000,average,light,very expensive
+936,Dell,medium,32,512,average,light,normal
+937,Dell,medium,4,512,big,average,normal
+938,Dell,slow,16,512,average,light,normal
+939,Dell,fast,8,512,small,average,normal
+940,HP,medium,32,256,big,light,cheap
+941,Acer,slow,4,256,small,heavy,cheap
+942,Lenovo,medium,4,1000,small,average,very expensive
+943,Lenovo,medium,16,1000,big,light,very expensive
+944,Lenovo,fast,32,512,average,heavy,normal
+945,Lenovo,fast,16,256,average,average,cheap
+946,HP,fast,16,512,small,light,normal
+947,Asus,slow,32,1000,average,average,very expensive
+948,Acer,medium,32,1000,small,average,very expensive
+949,Dell,medium,32,512,big,heavy,normal
+950,Asus,slow,8,1000,small,light,very expensive
+951,Lenovo,slow,32,512,big,average,normal
+952,Asus,fast,4,256,average,light,cheap
+953,Acer,slow,16,512,big,light,normal
+954,Dell,medium,8,256,big,heavy,cheap
+955,Dell,slow,32,256,big,heavy,cheap
+956,Acer,slow,8,1000,small,light,very expensive
+957,Acer,slow,32,1000,small,average,very expensive
+958,Lenovo,fast,8,1000,small,light,very expensive
+959,Dell,fast,16,512,big,heavy,normal
+960,Asus,fast,16,512,big,light,normal
+961,HP,medium,4,1000,average,light,very expensive
+962,HP,slow,4,512,small,average,normal
+963,Acer,medium,32,1000,average,average,very expensive
+964,Lenovo,medium,16,512,average,average,normal
+965,HP,fast,8,256,average,light,cheap
+966,Dell,slow,8,256,big,light,cheap
+967,Acer,medium,8,1000,big,average,very expensive
+968,Asus,slow,4,512,small,light,normal
+969,Acer,slow,8,512,average,heavy,normal
+970,Asus,fast,4,256,average,light,cheap
+971,Acer,medium,4,256,small,average,cheap
+972,Acer,medium,32,1000,small,heavy,very expensive
+973,Acer,medium,8,256,small,light,cheap
+974,Asus,medium,8,1000,big,average,very expensive
+975,Asus,fast,16,256,average,heavy,cheap
+976,Acer,fast,32,256,average,light,cheap
+977,HP,fast,16,512,big,heavy,normal
+978,Lenovo,fast,32,256,big,average,cheap
+979,Lenovo,slow,8,256,small,light,cheap
+980,Lenovo,fast,4,1000,average,average,very expensive
+981,Asus,medium,4,256,average,light,cheap
+982,Asus,slow,4,1000,big,heavy,very expensive
+983,HP,fast,4,256,big,heavy,cheap
+984,Lenovo,slow,4,256,big,heavy,cheap
+985,Lenovo,fast,16,1000,average,heavy,very expensive
+986,Acer,medium,32,512,big,heavy,normal
+987,Asus,medium,8,1000,small,average,very expensive
+988,Lenovo,medium,16,1000,small,average,very expensive
+989,HP,fast,32,1000,average,average,very expensive
+990,HP,medium,4,512,small,light,normal
+991,Lenovo,medium,32,256,small,heavy,cheap
+992,Asus,slow,32,1000,big,average,very expensive
+993,HP,medium,4,1000,big,light,very expensive
+994,Acer,slow,4,512,small,light,normal
+995,HP,fast,4,1000,small,average,very expensive
+996,Dell,medium,8,256,small,average,cheap
+997,Dell,fast,4,512,small,average,normal
+998,Asus,slow,8,256,small,average,cheap
+999,Lenovo,slow,4,256,big,average,cheap
