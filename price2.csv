@@ -1,4 +1,4 @@
-index,Brand,Processor_Speed,RAM_Size,Storage_Capacity,Screen_Size,Weight,Price
+,Brand,Processor_Speed,RAM_Size,Storage_Capacity,Screen_Size,Weight,Price
 0,Asus,fast,16,512,small,light,normal
 1,Acer,medium,4,1000,small,average,very expensive
 2,Lenovo,fast,4,256,small,light,cheap
