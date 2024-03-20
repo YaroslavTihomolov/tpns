@@ -1,9 +1,8 @@
 import random
 from enum import Enum, auto
+from ucimlrepo import fetch_ucirepo
 
-import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-
 import pandas as pd
 import math
 
@@ -75,42 +74,21 @@ def fake(x: float):
 
 funcs = [activation1, activation2, activation3, activation4, activation5, activation6, activation8, activation9, activation10]
 
-
-def create_net() -> [[Neuron]]:
+def create_net(neuron_counts: [int]) -> [[Neuron]]:
     output_neuron = ActivationNeuron(None, activation7)
-
-    # output_link = NeuronLink(output_neuron, random.random())
-
-    # neuron_2 = ActivationNeuron([output_link], activation)
-    # neuron_2 = ActivationNeuron([output_link], activation)
-    input_neurons = []
-    weights = []
-    layer_1_neurons = []
-    layer_2_neurons = []
-    count_2 = 2
-    for h1 in range(count_2):
-        neuron = ActivationNeuron([NeuronLink(output_neuron, random.uniform(-1, 1))], funcs[h1])
-        layer_2_neurons.append(neuron)
-    for h2 in range(5):
-        links_to_2 = []
-        for n2 in layer_2_neurons:
-            links_to_2.append(NeuronLink(n2, random.uniform(-1, 1)))
-        neuron = ActivationNeuron(links_to_2, funcs[h2 + count_2])
-        layer_1_neurons.append(neuron)
-    for ind in range(len(laptops.columns) - 2):
-        # weight2 = random.random()
-        # weights.append(weight2)
-        links = []
-        for n in layer_1_neurons:
-            weight1 = random.uniform(-1, 1)
-            weights.append(weight1)
-            link_1 = NeuronLink(n, weight1)
-            links.append(link_1)
-        # link_2 = NeuronLink(neuron_2, weight2)
-        neuron = ActivationNeuron(links, fake)
-        input_neurons.append(neuron)
-    print(weights)
-    return [input_neurons, layer_1_neurons, layer_2_neurons, [output_neuron]]
+    neurons = [[output_neuron]]
+    cur_layer = [output_neuron]
+    for index, count in enumerate(reversed(neuron_counts)):
+        next_layer = cur_layer.copy()
+        cur_layer = []
+        for i in range(count):
+            links_to_next_layer = []
+            for n in next_layer:
+                links_to_next_layer.append(NeuronLink(n, random.uniform(-1, 1)))
+            func = fake if index == len(neuron_counts) - 1 else funcs[i]
+            cur_layer.append(ActivationNeuron(links_to_next_layer, func))
+        neurons.append(cur_layer)
+    return neurons[::-1]
 
 
 scaler = MinMaxScaler()
@@ -160,6 +138,17 @@ def run(per: Perceptron, laptops, iter):
 
 
 if __name__ == "__main__":
-    p = Perceptron(create_net())
-    for s in range(500):
-        run(p, laptops, s)
+    mushroom = fetch_ucirepo(id=73)
+
+    # data (as pandas dataframes)
+    X = mushroom.data.features
+    y = mushroom.data.targets
+
+    # metadata
+    print(mushroom.data)
+
+    # variable information
+    # print(mushroom.variables)
+    # p = Perceptron(create_net([6, 4, 2]))
+    # for s in range(500):
+    #     run(p, laptops, s)

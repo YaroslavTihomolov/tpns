@@ -1,12 +1,12 @@
 from numpy import ndarray
 
-from task2 import Neuron, ActivationNeuron
+from task2 import ActivationNeuron
 
 
 class Perceptron:
     def __init__(self, neurons: [[ActivationNeuron]]):
         self.neurons: [[ActivationNeuron]] = neurons
-        self.__education_speed = 0.65
+        self.__education_speed = 1
 
     def run(self) -> float:
         for layer in self.neurons[:-1]:
@@ -20,7 +20,7 @@ class Perceptron:
         return (output_value - target_value) * output_value * (1 - output_value)
 
     @staticmethod
-    def __calc_error(actual_value: float, target_value: float, next_error: float) -> float:
+    def __calc_error(actual_value: float, next_error: float) -> float:
         return next_error * actual_value * (1 - actual_value)
 
     @staticmethod
@@ -38,7 +38,7 @@ class Perceptron:
         for layer in reversed(self.neurons[1:-1]):
             for neuron in layer:
                 next_error = self.count_next_error(neuron)
-                error = self.__calc_error(neuron.get_activation_data(), target_value, next_error)
+                error = self.__calc_error(neuron.get_activation_data(), next_error)
                 neuron.set_error(error)
 
     def __update_weight(self, neuron: ActivationNeuron):
@@ -55,7 +55,6 @@ class Perceptron:
     def fill(self, values: ndarray):
         i = 1
         for inp_neuron in self.neurons[0]:
-            val = values[i]
             inp_neuron.set_data(values[i])
             i += 1
 
