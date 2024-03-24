@@ -6,7 +6,7 @@ from task2 import ActivationNeuron
 class Perceptron:
     def __init__(self, neurons: [[ActivationNeuron]]):
         self.neurons: [[ActivationNeuron]] = neurons
-        self.__education_speed = 1
+        self.__education_speed = 0.5
 
     def run(self) -> float:
         for layer in self.neurons[:-1]:
@@ -53,7 +53,7 @@ class Perceptron:
                 self.__update_weight(neuron)
 
     def fill(self, values: ndarray):
-        i = 1
+        i = 0
         for inp_neuron in self.neurons[0]:
             inp_neuron.set_data(values[i])
             i += 1
@@ -63,6 +63,12 @@ class Perceptron:
             for neuron in layer:
                 neuron.set_data(0)
 
+    def step(self, row):
+        self.fill(row)
+        self.run()
+        self.error(row[-1])
+        self.study()
+        self.clean()
 
 
 
