@@ -141,7 +141,6 @@ min_laptop_value = laptops1['Price'].min()
 
 def foo(x):
     if not isinstance(x, str) or len(x) != 1:
-        print(x)
         return None
     else:
         return ord(x)
@@ -152,9 +151,7 @@ def foo(x):
 # print(mushrooms.values)
 
 
-def un_normalize(val: float) -> float:
-    max_mushroom_value = mushrooms1['poisonous'].max()
-    min_mushroom_value = mushrooms1['poisonous'].min()
+def un_normalize(val: float, max_mushroom_value: float, min_mushroom_value: float) -> float:
     return (max_mushroom_value - min_mushroom_value) * val + min_mushroom_value
 
 
@@ -180,9 +177,7 @@ def run(per: Perceptron, data_set, iter, original_data_set):
         dif = abs(un_res - rel[-1])
         if dif > max_e:
             max_e = dif
-        if iter == 999:
-            print([un_normalize(res), un_normalize(data_set.values[i][-1]), abs(res - data_set.values[i][-1]),
-                   abs(un_res - rel[-1])])
+        # print([un_normalize(res), un_normalize(data_set.values[i][-1]), abs(res - data_set.values[i][-1]),abs(un_res - rel[-1])])
         per.error(data_set.values[i][-1])
         per.study()
         per.clean()
@@ -196,18 +191,42 @@ def educate(perceptron: Perceptron, data_set):
         perceptron.step(data_set.values[i])
     print("\\\\\\\\\\Education finish\\\\\\\\\\")
 
+def count_accuracy(true_positive, true_negative, false_positive, false_negative) -> float:
+    return (true_positive + true_negative) / (true_positive + true_negative + false_positive + false_negative)
+
+def precision(true_positive, false_positive) -> float:
+    return true_positive / (true_positive + false_positive)
+
+def recall(true_positive, false_negative) -> float:
+    return true_positive / (true_positive + false_negative)
+
+def count_metrics(true_positive, true_negative, false_positive, false_negative):
+    print("accuracy: " + str(count_accuracy(true_positive, true_negative, false_positive, false_negative)))
+    print("precision: " + str(precision(true_positive, false_positive)))
+    print("recall: " + str(precision(true_positive, false_negative)))
 
 def check(perceptron: Perceptron, data_set, original_data_set):
-    correct = 0
+    true_positive = 0
+    true_negative = 0
+    false_negative = 0
+    false_positive = 0
+    max_mushroom_value = original_data_set['poisonous'].max()
+    min_mushroom_value = original_data_set['poisonous'].min()
     for i in range(len(original_data_set.values)):
         perceptron.fill(data_set.values[i])
         val = perceptron.run()
         perceptron.clean()
-        actual_value = categorize_mushroom(un_normalize(val))
+        actual_value = categorize_mushroom(un_normalize(val, max_mushroom_value, min_mushroom_value))
         expected_value = original_data_set.values[i][-1]
-        if actual_value == expected_value:
-            correct += 1
-    print('correct: ' + str(correct) + ' incorrect: ' + str(len(data_set.values) - correct) + '\n')
+        if actual_value == expected_value == 112:
+            true_positive += 1
+        if actual_value == expected_value == 101:
+            true_negative += 1
+        if expected_value == 112 and actual_value != expected_value:
+            false_negative += 1
+        if expected_value == 101 and actual_value != expected_value:
+            false_negative += 1
+    count_metrics(true_positive, true_negative, false_positive, false_negative)
 
 
 def educate_and_check(data_set, original_data_set, section_count):
@@ -228,6 +247,5 @@ if __name__ == "__main__":
     laptops = load_and_normalize_data('Laptop_price2.csv')
     mushrooms = load_and_normalize_data('update_mushrooms.csv')
     perceptron = Perceptron(create_net([len(mushrooms.columns) - 1, 4, 3]))
-    # for s in range(1):
-    #     run(perceptron, mushrooms, s, mushrooms1)
+    # run(perceptron, mushrooms, 1, mushrooms1)
     educate_and_check(mushrooms, mushrooms1, 4)

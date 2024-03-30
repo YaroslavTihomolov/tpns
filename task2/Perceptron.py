@@ -53,10 +53,8 @@ class Perceptron:
                 self.__update_weight(neuron)
 
     def fill(self, values: ndarray):
-        i = 0
-        for inp_neuron in self.neurons[0]:
+        for i, inp_neuron in enumerate(self.neurons[0]):
             inp_neuron.set_data(values[i])
-            i += 1
 
     def clean(self):
         for layer in self.neurons[1:]:
