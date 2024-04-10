@@ -70,4 +70,3 @@ class Perceptron:
         self.clean()
 
 
-

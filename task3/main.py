@@ -1,8 +1,7 @@
 from enum import Enum, auto
 
 import numpy as np
-from sklearn.metrics import roc_curve, auc
-from sklearn.preprocessing import MinMaxScaler, LabelEncoder
+from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
 import math
 
@@ -212,16 +211,12 @@ def check(perceptron: Perceptron, data_set, original_data_set):
     false_positive = 0
     max_mushroom_value = original_data_set['poisonous'].max()
     min_mushroom_value = original_data_set['poisonous'].min()
-    predictions = []
-    actuals = []
     for i in range(len(original_data_set.values)):
         perceptron.fill(data_set.values[i])
         val = perceptron.run()
         perceptron.clean()
         actual_value = categorize_mushroom(un_normalize(val, max_mushroom_value, min_mushroom_value))
         expected_value = original_data_set.values[i][-1]
-        actuals.append(expected_value)
-        predictions.append(actual_value)
         if actual_value == expected_value == 112:
             true_positive += 1
         if actual_value == expected_value == 101:
@@ -230,12 +225,6 @@ def check(perceptron: Perceptron, data_set, original_data_set):
             false_negative += 1
         if expected_value == 101 and actual_value != expected_value:
             false_negative += 1
-    label_encoder = LabelEncoder()
-    y_true_binary = label_encoder.fit_transform(actuals)
-
-    fpr, tpr, thresholds = roc_curve(y_true_binary, predictions)
-    auc_roc = auc(fpr, tpr)
-    print("AUC-ROC: ", auc_roc)
     count_metrics(true_positive, true_negative, false_positive, false_negative)
 
 
